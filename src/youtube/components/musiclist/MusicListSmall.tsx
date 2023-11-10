@@ -7,9 +7,9 @@ import {Dimensions} from 'react-native';
 export default function MusicListSmall() {
   return (
     <ScrollView horizontal={true}>
-      {[...Array(3)].map(() => {
+      {[...Array(3)].map((value, idx) => {
         return (
-          <View>
+          <View key={idx}>
             {[...Array(4)].map((val, index) => {
               return (
                 <View key={index}>
