@@ -1,5 +1,5 @@
 import React from 'react';
-import {ScrollView, Text, View} from 'react-native';
+import {ScrollView, View} from 'react-native';
 import LogoHeader from './components/header/LogoHeader';
 import CategoryHeader from './components/header/CategoryHeader';
 import HeaderBackground from './components/header/HeaderBackground';
