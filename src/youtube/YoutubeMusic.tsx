@@ -15,7 +15,7 @@ export default function YoutubeMusic() {
       <LogoHeader />
       <CategoryHeader />
       <ScrollView style={{borderWidth: 1}}>
-        <View style={{height: 10000000}}>
+        <View style={{marginBottom: 100}}>
           <MusicListSmall />
           <MusicListMedium />
           <MusicListLarge />
