@@ -16,7 +16,7 @@ export default function LogoHeader() {
           elevation: 100,
           zIndex: 100,
         }}>
-        <Image source={require('../../../assets/logo.png')} style={{width: 90, height: 30}} />
+        <Image source={require('../../../assets/cih-logo.png')} style={{width: 122, height: 28}} />
         <View
           style={{
             flexDirection: 'row',
